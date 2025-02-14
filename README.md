@@ -1,5 +1,7 @@
 # Nationwide Crime Prediction and Prevention in Canada  
-*A Decision Intelligence Approach to Understanding SDG 16*
+**A Decision Intelligence Approach to Understanding SDG 16**
+
+*By:Khaleel Mohammed*
 
 ## Executive Summary  
 This project addresses the challenge of crime prevention and prediction in Canada through the lens of **Sustainable Development Goal 16: Peace, Justice & Strong Institutions**. By utilizing open crime data from various provinces and integrating decision intelligence tools such as Python and Tableau, we aim to predict crime trends, identify high-risk areas, and propose actionable interventions for improving public safety. Our analysis blends traditional statistical techniques with machine learning methods to forecast crime patterns, uncover correlations, and assess the effectiveness of potential crime prevention strategies.
@@ -14,9 +16,9 @@ This project addresses the challenge of crime prevention and prediction in Canad
    - Baseline: Current predictive models show 65% accuracy in crime forecasting
 
 2. **High-Risk Area Identification (HRAI)**
-   - Number of areas identified as high-risk for crime based on predictive models
+   - Number of areas identified as high-risk for crime based on ~~predictive~~ classification models
    - Target: Increase identification rate by 20% in urban centers
-   - Measured quarterly with crime hotspots analysis
+   - Measured quarterly with crime hotspots analysis <mark>is this a tool or dataset?  if so, cite it</mark>
 
 3. **Crime Reduction Impact (CRI)**
    - Percentage reduction in crime rates following the implementation of predictive interventions
