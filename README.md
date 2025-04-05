@@ -128,7 +128,11 @@ While Tableau dashboards effectively showcase trends, they do not provide advanc
 Below are the descriptive statistics for our KPIs (2019–2022):
 
 ### Correlation Analysis
-A correlation heatmap was generated to see how these KPIs move together from 2019–2022. Key findings include:
+A correlation heatmap was generated to see how these KPIs move together from 2019–2022. 
+
+![Correlation Matrix of KPIs](Images/Correlation%20Matrixof%20KPIs.png)
+
+Key findings include:
 - **High Positive Correlation:** CSI and PropertyCrimeTrend (0.92).
 - **Strong Negative Correlations:** HomicideRate and HateCrimeCount with YoungOffenderSentencing.
 - **Weak Correlation:** CSI and YoungOffenderSentencing.
@@ -140,6 +144,9 @@ Based on theoretical and qualitative insights, we constructed a Directed Acyclic
 - **HomicideRate, HateCrimeCount, and PropertyCrimeTrend** → CSI
 - **CSI** → YoungOffenderSentencing
 - Confounders also directly affect YoungOffenderSentencing.
+
+![Causal Inference Diagram](Images/Causal%20Inference.png)
+
 
 Due to the limited sample size (N=4), regression-based causal estimates were unstable. This highlights the exploratory nature of the analysis.
 
